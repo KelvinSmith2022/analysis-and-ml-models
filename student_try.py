@@ -3,7 +3,6 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap
 
 
-
 def main():
     student_df = pd.read_csv(filepath_or_buffer="C:\\Users\\user\\PycharmProjects\\datasets\\student_data.csv")
     # getting the dataframe (tuple) printed
